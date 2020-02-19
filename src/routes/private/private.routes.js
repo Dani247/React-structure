@@ -5,6 +5,6 @@ export default [
     key: '',
     path: '/',
     exact: true,
-    component: lazy(() => import('../../../containers/test/views/'))
+    component: lazy(() => import('../../containers/test/views'))
   }
 ]
